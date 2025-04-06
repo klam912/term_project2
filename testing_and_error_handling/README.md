@@ -5,7 +5,6 @@ This folder contains a Go program that prints greeting messages for a list of na
 ## Requirements
 
 - Go 1.24 or higher
-- A terminal with access to your Go binary directory
 
 ## Installation
 
@@ -29,24 +28,24 @@ go build
 
 ### Step 4: Install the program
 Once you have built the Go program, you must install the program into executable binary.
-Before you install, you must add the Go install directory to your system's shell path so that you don't need to specify where the executable is
+Before you install, you must add the Go install directory to your system's shell path so that you don't need to specify where the executable is.
 
-You can find your Go install path, where the go command will install the current package
+You can find your Go install path, where the go command will install the current package.
 ```bash
 go list -f '{{.Target}}'
 ```
-Then, add the path to $PATH
+Then, add the path to $PATH.
 ```bash
 export PATH=$PATH:/path/to/your/install/directory
 ```
 
-Once you have updated the shell path, install the package
+Once you have updated the shell path, install the package.
 ```bash
 go install
 ```
 
 ### Step 5: Run the program 
-You can now run your program by typing its name
+You can now run your program by typing its name.
 ```bash
 main
 ```
