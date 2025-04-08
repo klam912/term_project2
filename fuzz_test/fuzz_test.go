@@ -1,6 +1,6 @@
 // Authors: Ken, Abby, Carlos
 // Date: 2025-04-06
-// Usage: go run fuzz_test.go
+// Usage: go test -fuzz=FuzzMSE
 // Description: Demonstrates Go's unique testing function (Fuzz Testing)
 
 // What is Fuzz testing:
