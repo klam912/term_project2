@@ -2,6 +2,7 @@
 // Date: 2025-04-06
 // Usage: main
 // Description: Demonstrates Go's error handling
+// Source: https://go.dev/blog/error-handling-and-go
 package main
 
 import (

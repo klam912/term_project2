@@ -2,7 +2,7 @@
 // Date: 2025-04-06
 // Usage: go run defer.go
 // Description: Demonstrates a defer statement, which defers the execution of a function until the surrounding function returns
-
+// Source: https://go.dev/blog/defer-panic-and-recover
 package main
 
 import (
