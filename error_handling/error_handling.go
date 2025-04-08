@@ -1,6 +1,6 @@
 // Authors: Ken, Abby, Carlos
 // Date: 2025-04-06
-// Usage: main
+// Usage: go run error_handling.go
 // Description: Demonstrates Go's error handling
 // Source: https://go.dev/blog/error-handling-and-go
 package main
